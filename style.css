@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: orange;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 95vh;
+}
+header {
+    background-color: purple;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 5px dashed grey;
+}
+h1{
+    font-size: 34px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#snake{
+    border: 10px dashed orange;
+    border-radius: 20px;
+}
+
